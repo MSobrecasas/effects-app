@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "http-effects:build:production"
+              "buildTarget": "http-effects:build:production"
             },
             "development": {
-              "browserTarget": "http-effects:build:development"
+              "buildTarget": "http-effects:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "http-effects:build"
+            "buildTarget": "http-effects:build"
           }
         },
         "test": {
